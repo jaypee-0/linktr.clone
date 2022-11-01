@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import links from './data/links'
-import github from "./assets/media/github.svg"
+import github from "./assets/media/Github.svg"
 import slack from "./assets/media/slack.svg"
 
 const App = () => {

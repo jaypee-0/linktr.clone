@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import zuri from "../assets/media/zuri.svg"
-import i4g from "../assets/media/i4g.svg"
+import i4g from "../assets/media/I4G.svg"
 
 const Footer = () => {
     return (
