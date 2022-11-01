@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --Gray-200: #EAECF0;
+    --Gray-300: #D0D5DD;
+    --Gray-500: #667085;
+    --Gray-900: #101828;
+}
+
+body {
+    padding: 64px 114px 52px;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width:800px) {
+body {
+        padding: 62px 40px 52px;
+    }
+}
+
+@media (max-width:600px) {
+body {
+        padding: 62px 16px 52px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--Gray-900);
+}
+
+#profile__img:hover + .camera {
+    display: block;
+}
