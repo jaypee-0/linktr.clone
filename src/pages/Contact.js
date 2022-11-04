@@ -48,7 +48,7 @@ const Main = styled.main`
   flex-direction: column;
   gap: 20px;
   padding: 80px 0 64px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   @media (max-width: 768px) {
     width: 100%;
