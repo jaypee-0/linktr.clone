@@ -26,7 +26,7 @@ const Contact = () => {
           <Label>Message</Label>
           <Textarea
             type='textarea'
-            placeholder='Send me a message and Ill reply you as soon as possible...'
+            placeholder="Send me a message and I'll reply you as soon as possible..."
             required
           />
           <DivB>
