@@ -14,17 +14,18 @@ const Contact = () => {
           <Div>
             <Width100>
               <Label>First Name</Label>
-              <Input type='text' placeholder='Enter your first name' required />
+              <Input id="first_name" type='text' placeholder='Enter your first name' required />
             </Width100>
             <Width100>
               <Label>Last Name</Label>
-              <Input type='text' placeholder='Enter your last name' required />
+              <Input id="last_name" type='text' placeholder='Enter your last name' required />
             </Width100>
           </Div>
           <Label>Last Name</Label>
-          <Input type='email' placeholder='yourname@email.com' required />
+          <Input id='email' type='email' placeholder='yourname@email.com' required />
           <Label>Message</Label>
           <Textarea
+            id="message"
             type='textarea'
             placeholder="Send me a message and I'll reply you as soon as possible..."
             required
@@ -33,7 +34,7 @@ const Contact = () => {
             <Checkbox type="checkbox" required />
             <Text>You agree to providing your data to {UserProfile.slack_name} who may contact you.</Text>
           </DivB>
-          <Button>Send message</Button>
+          <Button id='btn__submit'>Send message</Button>
         </Form>
       </Main>
     </div>
