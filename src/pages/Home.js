@@ -14,7 +14,7 @@ const Home = () => {
       <Main>
         {links.map((link, index) => {
           return (
-            <Links href={link.link} key={index} id={link.id} target="_blank" rel="noreferrer">{link.name}</Links>
+            <Links href={link.link} key={index} id={link.id} rel="noreferrer">{link.name}</Links>
           )
         })}
         <Div>
